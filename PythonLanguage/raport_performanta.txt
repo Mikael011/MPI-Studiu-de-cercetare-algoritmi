@@ -1,0 +1,1534 @@
+=== RAPORT PERFORMANTĂ ALGORITMI SORTARE ===
+Data testării: Tue Mar 24 22:55:29 2026
+=================================================================
+
+>>> FIȘIER: dim_gigant.txt <<<
+
+  [CAS: Aleator | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   3.706807s | Memorie:     0.17 KB
+    Merge Sort      | Timp:   1.736007s | Memorie:  1564.34 KB
+    Quick Sort      | Timp:   1.523156s | Memorie:     5.34 KB
+    Heap Sort       | Timp:   0.764996s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.378854s | Memorie:  1557.76 KB
+    Radix Sort      | Timp:   0.416487s | Memorie:   781.50 KB
+
+  [CAS: Sortat Crescător | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.273647s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.578905s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   1.057235s | Memorie:     4.90 KB
+    Heap Sort       | Timp:   0.701999s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.351451s | Memorie:  1558.10 KB
+    Radix Sort      | Timp:   0.370118s | Memorie:   781.50 KB
+
+  [CAS: Sortat Descrescător | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.468127s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.558817s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   1.195136s | Memorie:     5.37 KB
+    Heap Sort       | Timp:   0.643980s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.344169s | Memorie:  1558.13 KB
+    Radix Sort      | Timp:   0.382322s | Memorie:   781.50 KB
+
+  [CAS: Constant (Plat) | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.265797s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.546553s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   0.019080s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.056171s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.049142s | Memorie:   781.27 KB
+    Radix Sort      | Timp:   0.135133s | Memorie:   781.50 KB
+
+  [CAS: Float Aleator | N: 100000 | TIP: float]
+    Shell Sort      | Timp:   1.128697s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.668167s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   1.627672s | Memorie:     6.05 KB
+    Heap Sort       | Timp:   0.753874s | Memorie:     0.00 KB
+
+>>> FIȘIER: dim_mare.txt <<<
+
+  [CAS: Aleator | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:  31.032302s | Memorie:     0.17 KB
+    Selection Sort  | Timp:   4.559312s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   4.724277s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.067043s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.085844s | Memorie:   156.41 KB
+    Quick Sort      | Timp:   0.145530s | Memorie:     4.59 KB
+    Heap Sort       | Timp:   0.053530s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.078769s | Memorie:   840.46 KB
+    Radix Sort      | Timp:   0.029830s | Memorie:    78.38 KB
+
+  [CAS: Sortat Crescător | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:   0.001577s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.490641s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.002366s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.022098s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.045139s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.078813s | Memorie:     3.37 KB
+    Heap Sort       | Timp:   0.053843s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.072303s | Memorie:   837.31 KB
+    Radix Sort      | Timp:   0.029881s | Memorie:    78.38 KB
+
+  [CAS: Sortat Descrescător | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:  15.614848s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.864613s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   8.941988s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.037403s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.048598s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.117905s | Memorie:     2.24 KB
+    Heap Sort       | Timp:   0.051366s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.080087s | Memorie:   841.05 KB
+    Radix Sort      | Timp:   0.035774s | Memorie:    78.38 KB
+
+  [CAS: Constant (Plat) | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:   0.001376s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.887680s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.002524s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.022349s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.050615s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.001608s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.006026s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.004804s | Memorie:    78.14 KB
+    Radix Sort      | Timp:   0.014704s | Memorie:    78.38 KB
+
+  [CAS: Float Aleator | N: 10000 | TIP: float]
+    Bubble Sort     | Timp:  11.520829s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.373468s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   4.575314s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.063290s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.055121s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.080137s | Memorie:     3.05 KB
+    Heap Sort       | Timp:   0.112577s | Memorie:     0.00 KB
+
+  [CAS: String Aleator | N: 10000 | TIP: string]
+    Bubble Sort     | Timp:  15.533570s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   6.099778s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   5.137636s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.071926s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.056739s | Memorie:   156.34 KB
+    Quick Sort      | Timp:   0.088954s | Memorie:     2.71 KB
+    Heap Sort       | Timp:   0.061371s | Memorie:     0.00 KB
+
+>>> FIȘIER: dim_medie.txt <<<
+
+  [CAS: Aleator | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.197974s | Memorie:     0.14 KB
+    Selection Sort  | Timp:   0.043594s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.039159s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.003056s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003722s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.009780s | Memorie:     2.74 KB
+    Heap Sort       | Timp:   0.003344s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.036384s | Memorie:   624.55 KB
+    Radix Sort      | Timp:   0.003429s | Memorie:     8.06 KB
+
+  [CAS: Sortat Crescător | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000173s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.044673s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000221s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001313s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003380s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.004384s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.004422s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.034241s | Memorie:   606.20 KB
+    Radix Sort      | Timp:   0.002635s | Memorie:     8.06 KB
+
+  [CAS: Sortat Descrescător | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.116117s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.046264s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.069887s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002351s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003339s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003161s | Memorie:     0.37 KB
+    Heap Sort       | Timp:   0.002919s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.035879s | Memorie:   621.92 KB
+    Radix Sort      | Timp:   0.002641s | Memorie:     8.06 KB
+
+  [CAS: Constant (Plat) | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000121s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.041416s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000201s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001266s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003326s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.000172s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000507s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.000432s | Memorie:     7.83 KB
+    Radix Sort      | Timp:   0.001225s | Memorie:     8.06 KB
+
+  [CAS: Float Aleator | N: 1000 | TIP: float]
+    Bubble Sort     | Timp:   0.089615s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.041424s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.051496s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.005784s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.006684s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003191s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.004152s | Memorie:     0.00 KB
+
+  [CAS: String Aleator | N: 1000 | TIP: string]
+    Bubble Sort     | Timp:   0.110686s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.053000s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.045521s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.003499s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.004115s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003592s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.005290s | Memorie:     0.00 KB
+
+>>> FIȘIER: dim_mica.txt <<<
+
+  [CAS: Aleator | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000532s | Memorie:     0.05 KB
+    Selection Sort  | Timp:   0.000258s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000408s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000128s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000340s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000375s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000200s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.004327s | Memorie:   155.78 KB
+    Radix Sort      | Timp:   0.000227s | Memorie:     1.03 KB
+
+  [CAS: Sortat Crescător | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000013s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000390s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000028s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000061s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000326s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000195s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000253s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.003259s | Memorie:   152.80 KB
+    Radix Sort      | Timp:   0.000404s | Memorie:     1.03 KB
+
+  [CAS: Sortat Descrescător | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000672s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000283s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000484s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000087s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000310s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000278s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000182s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.003205s | Memorie:   151.06 KB
+    Radix Sort      | Timp:   0.000244s | Memorie:     1.03 KB
+
+  [CAS: Constant (Plat) | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000012s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000228s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000015s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000050s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000567s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000038s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000060s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.000051s | Memorie:     0.80 KB
+    Radix Sort      | Timp:   0.000102s | Memorie:     1.03 KB
+
+  [CAS: Float Aleator | N: 100 | TIP: float]
+    Bubble Sort     | Timp:   0.000466s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000243s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000338s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000106s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000348s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000190s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000227s | Memorie:     0.00 KB
+
+  [CAS: String Aleator | N: 100 | TIP: string]
+    Bubble Sort     | Timp:   0.003773s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000641s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000288s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000257s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000351s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000246s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000218s | Memorie:     0.00 KB
+
+>>> FIȘIER: int_aleator.txt <<<
+
+  [CAS: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.205291s | Memorie:     0.09 KB
+    Selection Sort  | Timp:   0.052586s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.039955s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.003268s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003807s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.010156s | Memorie:     2.80 KB
+    Heap Sort       | Timp:   0.005322s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.037946s | Memorie:   614.14 KB
+    Radix Sort      | Timp:   0.002705s | Memorie:     8.06 KB
+
+>>> FIȘIER: int_batch_mici.txt <<<
+
+  [CAS: Implicit | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.556120s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.677817s | Memorie:  1563.36 KB
+    Quick Sort      | Timp:   0.177797s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.671155s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.053808s | Memorie:   782.13 KB
+    Radix Sort      | Timp:   0.205593s | Memorie:   781.50 KB
+
+>>> FIȘIER: int_constant.txt <<<
+
+  [CAS: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000166s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.043180s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000203s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001384s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003426s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.000250s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000530s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.000706s | Memorie:     7.83 KB
+    Radix Sort      | Timp:   0.001691s | Memorie:     8.06 KB
+
+>>> FIȘIER: int_inversat.txt <<<
+
+  [CAS: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.260701s | Memorie:     0.09 KB
+    Selection Sort  | Timp:   0.046777s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.071854s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002255s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003389s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.013627s | Memorie:     3.40 KB
+    Heap Sort       | Timp:   0.003560s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.036476s | Memorie:   633.67 KB
+    Radix Sort      | Timp:   0.002602s | Memorie:     8.06 KB
+
+>>> FIȘIER: int_sortat.txt <<<
+
+  [CAS: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000259s | Memorie:     0.03 KB
+    Selection Sort  | Timp:   0.064399s | Memorie:     0.06 KB
+    Insertion Sort  | Timp:   0.000208s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001283s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003441s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.008296s | Memorie:     3.40 KB
+    Heap Sort       | Timp:   0.003737s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.033750s | Memorie:   622.52 KB
+    Radix Sort      | Timp:   0.002662s | Memorie:     8.06 KB
+
+=================================================================
+=== SESIUNE NOUĂ DE TESTARE ===
+Data și ora pornirii: 2026-03-28 13:27:52
+=================================================================
+
+>>> FIȘIER: dim_gigant.txt <<<
+
+  [CAS: Aleator | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   3.956564s | Memorie:     0.14 KB
+    Merge Sort      | Timp:   1.567609s | Memorie:  1564.56 KB
+    Quick Sort      | Timp:   1.714917s | Memorie:     5.12 KB
+    Heap Sort       | Timp:   0.965487s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.479142s | Memorie:  1557.76 KB
+    Radix Sort      | Timp:   0.540388s | Memorie:   781.50 KB
+
+  [CAS: Sortat Crescător | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.419451s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.590447s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   1.146932s | Memorie:     4.27 KB
+    Heap Sort       | Timp:   0.724741s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.443727s | Memorie:  1558.10 KB
+    Radix Sort      | Timp:   0.379809s | Memorie:   781.50 KB
+
+  [CAS: Sortat Descrescător | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.505032s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.679881s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   1.296494s | Memorie:     4.87 KB
+    Heap Sort       | Timp:   0.702202s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.345430s | Memorie:  1558.13 KB
+    Radix Sort      | Timp:   0.385947s | Memorie:   781.50 KB
+
+  [CAS: Constant (Plat) | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.315412s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.663660s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   0.018736s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.077284s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.079079s | Memorie:   781.27 KB
+    Radix Sort      | Timp:   0.324502s | Memorie:   781.50 KB
+
+  [CAS: Float Aleator | N: 100000 | TIP: float]
+    Shell Sort      | Timp:   1.397689s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.697628s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   1.810219s | Memorie:     5.34 KB
+    Heap Sort       | Timp:   0.957863s | Memorie:     0.00 KB
+
+>>> FIȘIER: dim_mare.txt <<<
+
+  [CAS: Aleator | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:  31.151163s | Memorie:     0.17 KB
+    Selection Sort  | Timp:   4.698671s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   4.724220s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.066590s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.087545s | Memorie:   156.41 KB
+    Quick Sort      | Timp:   0.132169s | Memorie:     4.21 KB
+    Heap Sort       | Timp:   0.055774s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.078550s | Memorie:   840.46 KB
+    Radix Sort      | Timp:   0.031747s | Memorie:    78.38 KB
+
+  [CAS: Sortat Crescător | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:   0.001462s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.515685s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.002355s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.022068s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.045228s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.069262s | Memorie:     2.74 KB
+    Heap Sort       | Timp:   0.055583s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.071912s | Memorie:   837.31 KB
+    Radix Sort      | Timp:   0.029310s | Memorie:    78.38 KB
+
+  [CAS: Sortat Descrescător | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:  15.803906s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   5.091947s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   8.740960s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.036279s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.045807s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.061237s | Memorie:     2.18 KB
+    Heap Sort       | Timp:   0.077695s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.096330s | Memorie:   841.05 KB
+    Radix Sort      | Timp:   0.029403s | Memorie:    78.38 KB
+
+  [CAS: Constant (Plat) | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:   0.001375s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.240817s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.002257s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.021303s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.046536s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.001596s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.005595s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.004894s | Memorie:    78.14 KB
+    Radix Sort      | Timp:   0.016163s | Memorie:    78.38 KB
+
+  [CAS: Float Aleator | N: 10000 | TIP: float]
+    Bubble Sort     | Timp:  11.317526s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.297794s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   4.433347s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.061309s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.050716s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.086094s | Memorie:     3.96 KB
+    Heap Sort       | Timp:   0.050325s | Memorie:     0.00 KB
+
+  [CAS: String Aleator | N: 10000 | TIP: string]
+    Bubble Sort     | Timp:  12.955473s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   5.609254s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   4.990138s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.068838s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.061741s | Memorie:   156.34 KB
+    Quick Sort      | Timp:   0.079034s | Memorie:     3.68 KB
+    Heap Sort       | Timp:   0.058754s | Memorie:     0.00 KB
+
+>>> FIȘIER: dim_medie.txt <<<
+
+  [CAS: Aleator | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.198550s | Memorie:     0.14 KB
+    Selection Sort  | Timp:   0.045268s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.040032s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.003215s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.004118s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.009803s | Memorie:     3.43 KB
+    Heap Sort       | Timp:   0.004699s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.034713s | Memorie:   624.09 KB
+    Radix Sort      | Timp:   0.002614s | Memorie:     8.06 KB
+
+  [CAS: Sortat Crescător | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000126s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.046375s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000207s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001300s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003443s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003389s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.003700s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.034266s | Memorie:   606.20 KB
+    Radix Sort      | Timp:   0.002577s | Memorie:     8.06 KB
+
+  [CAS: Sortat Descrescător | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.118704s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.044840s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.070642s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002242s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003340s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.002865s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.003023s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.034435s | Memorie:   621.92 KB
+    Radix Sort      | Timp:   0.002591s | Memorie:     8.06 KB
+
+  [CAS: Constant (Plat) | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000123s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.041530s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000201s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001242s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003329s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.000178s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000507s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.000449s | Memorie:     7.83 KB
+    Radix Sort      | Timp:   0.001329s | Memorie:     8.06 KB
+
+  [CAS: Float Aleator | N: 1000 | TIP: float]
+    Bubble Sort     | Timp:   0.087749s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.041221s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.037183s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002860s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003812s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003618s | Memorie:     0.62 KB
+    Heap Sort       | Timp:   0.003304s | Memorie:     0.00 KB
+
+  [CAS: String Aleator | N: 1000 | TIP: string]
+    Bubble Sort     | Timp:   0.107184s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.053462s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.045570s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.003484s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.004117s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003582s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.003830s | Memorie:     0.00 KB
+
+>>> FIȘIER: dim_mica.txt <<<
+
+  [CAS: Aleator | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000542s | Memorie:     0.05 KB
+    Selection Sort  | Timp:   0.000256s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000290s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000111s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000319s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000316s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000310s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.003459s | Memorie:   155.78 KB
+    Radix Sort      | Timp:   0.000239s | Memorie:     1.03 KB
+
+  [CAS: Sortat Crescător | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000012s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000247s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000016s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000057s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000299s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000238s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000218s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.003481s | Memorie:   152.80 KB
+    Radix Sort      | Timp:   0.000223s | Memorie:     1.03 KB
+
+  [CAS: Sortat Descrescător | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000642s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000262s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000453s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000080s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000302s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000189s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000180s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.003279s | Memorie:   151.06 KB
+    Radix Sort      | Timp:   0.000289s | Memorie:     1.03 KB
+
+  [CAS: Constant (Plat) | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000011s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000228s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000015s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000050s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000298s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000024s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000050s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.000050s | Memorie:     0.80 KB
+    Radix Sort      | Timp:   0.000102s | Memorie:     1.03 KB
+
+  [CAS: Float Aleator | N: 100 | TIP: float]
+    Bubble Sort     | Timp:   0.000522s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000241s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000212s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000104s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000329s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000185s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000203s | Memorie:     0.00 KB
+
+  [CAS: String Aleator | N: 100 | TIP: string]
+    Bubble Sort     | Timp:   0.000610s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000356s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000298s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000120s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000359s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000230s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000216s | Memorie:     0.00 KB
+
+>>> FIȘIER: int_aleator.txt <<<
+
+  [CAS: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.198521s | Memorie:     0.09 KB
+    Selection Sort  | Timp:   0.043087s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.039076s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002896s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003770s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.008292s | Memorie:     3.30 KB
+    Heap Sort       | Timp:   0.003356s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.036128s | Memorie:   613.73 KB
+    Radix Sort      | Timp:   0.002767s | Memorie:     8.06 KB
+
+>>> FIȘIER: int_batch_mici.txt <<<
+
+  [CAS: Implicit | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.539577s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.816145s | Memorie:  1563.36 KB
+    Quick Sort      | Timp:   0.225274s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.675052s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.054708s | Memorie:   782.13 KB
+    Radix Sort      | Timp:   0.202631s | Memorie:   781.50 KB
+
+>>> FIȘIER: int_constant.txt <<<
+
+  [CAS: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000125s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.041755s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000248s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001242s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003339s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.000236s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000511s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.000454s | Memorie:     7.83 KB
+    Radix Sort      | Timp:   0.001199s | Memorie:     8.06 KB
+
+>>> FIȘIER: int_inversat.txt <<<
+
+  [CAS: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.252786s | Memorie:     0.09 KB
+    Selection Sort  | Timp:   0.043894s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.069231s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002239s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003431s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.008237s | Memorie:     2.74 KB
+    Heap Sort       | Timp:   0.002914s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.036717s | Memorie:   634.14 KB
+    Radix Sort      | Timp:   0.002609s | Memorie:     8.06 KB
+
+>>> FIȘIER: int_sortat.txt <<<
+
+  [CAS: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000257s | Memorie:     0.03 KB
+    Selection Sort  | Timp:   0.064195s | Memorie:     0.06 KB
+    Insertion Sort  | Timp:   0.000208s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001341s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003404s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.008002s | Memorie:     3.40 KB
+    Heap Sort       | Timp:   0.003666s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.034534s | Memorie:   622.52 KB
+    Radix Sort      | Timp:   0.002687s | Memorie:     8.06 KB
+
+=================================================================
+=== SESIUNE NOUĂ DE TESTARE ===
+Data și ora pornirii: 2026-04-19 18:49:29
+=================================================================
+
+>>> FIȘIER: dim_gigant.txt <<<
+
+  [CAS: Aleator | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   3.522345s | Memorie:     0.14 KB
+    Merge Sort      | Timp:   1.510709s | Memorie:  1564.18 KB
+    Quick Sort      | Timp:   1.445854s | Memorie:     5.05 KB
+    Heap Sort       | Timp:   0.929871s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.400629s | Memorie:  1557.76 KB
+    Radix Sort      | Timp:   0.460547s | Memorie:   781.50 KB
+
+  [CAS: Sortat Crescător | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.290610s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.569748s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   1.117545s | Memorie:     4.93 KB
+    Heap Sort       | Timp:   0.737811s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.434009s | Memorie:  1558.10 KB
+    Radix Sort      | Timp:   0.392298s | Memorie:   781.50 KB
+
+  [CAS: Sortat Descrescător | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.459815s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.555475s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   1.242793s | Memorie:     5.21 KB
+    Heap Sort       | Timp:   0.641424s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.355354s | Memorie:  1558.13 KB
+    Radix Sort      | Timp:   0.385212s | Memorie:   781.50 KB
+
+  [CAS: Constant (Plat) | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.281430s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.551636s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   0.015777s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.056344s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.047231s | Memorie:   781.27 KB
+    Radix Sort      | Timp:   0.138528s | Memorie:   781.50 KB
+
+  [CAS: Float Aleator | N: 100000 | TIP: float]
+    Shell Sort      | Timp:   1.161863s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.682991s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   1.870868s | Memorie:     6.02 KB
+    Heap Sort       | Timp:   0.837949s | Memorie:     0.00 KB
+
+>>> FIȘIER: dim_mare.txt <<<
+
+  [CAS: Aleator | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:  30.824381s | Memorie:     0.17 KB
+    Selection Sort  | Timp:   4.555154s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   4.498849s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.062793s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.081642s | Memorie:   156.41 KB
+    Quick Sort      | Timp:   0.130207s | Memorie:     4.21 KB
+    Heap Sort       | Timp:   0.050602s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.074121s | Memorie:   840.46 KB
+    Radix Sort      | Timp:   0.030257s | Memorie:    78.38 KB
+
+  [CAS: Sortat Crescător | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:   0.001653s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.408807s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.002356s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.021863s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.043959s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.077569s | Memorie:     2.77 KB
+    Heap Sort       | Timp:   0.054578s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.072734s | Memorie:   837.31 KB
+    Radix Sort      | Timp:   0.029376s | Memorie:    78.38 KB
+
+  [CAS: Sortat Descrescător | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:  15.658046s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.634971s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   8.663398s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.037312s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.044109s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.056631s | Memorie:     2.12 KB
+    Heap Sort       | Timp:   0.046290s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.073093s | Memorie:   841.05 KB
+    Radix Sort      | Timp:   0.030183s | Memorie:    78.38 KB
+
+  [CAS: Constant (Plat) | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:   0.001584s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.421331s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.002256s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.020977s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.043274s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.001605s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.005639s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.007017s | Memorie:    78.14 KB
+    Radix Sort      | Timp:   0.013950s | Memorie:    78.38 KB
+
+  [CAS: Float Aleator | N: 10000 | TIP: float]
+    Bubble Sort     | Timp:  11.776868s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.415049s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   4.574323s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.062697s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.050490s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.086114s | Memorie:     3.55 KB
+    Heap Sort       | Timp:   0.054842s | Memorie:     0.00 KB
+
+  [CAS: String Aleator | N: 10000 | TIP: string]
+    Bubble Sort     | Timp:  12.867523s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   5.605263s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   5.042579s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.068788s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.054853s | Memorie:   156.34 KB
+    Quick Sort      | Timp:   0.114672s | Memorie:     4.02 KB
+    Heap Sort       | Timp:   0.059328s | Memorie:     0.00 KB
+
+>>> FIȘIER: dim_medie.txt <<<
+
+  [CAS: Aleator | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.200501s | Memorie:     0.14 KB
+    Selection Sort  | Timp:   0.043318s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.039368s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.003068s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003760s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.008699s | Memorie:     2.96 KB
+    Heap Sort       | Timp:   0.003379s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.037035s | Memorie:   624.34 KB
+    Radix Sort      | Timp:   0.002637s | Memorie:     8.06 KB
+
+  [CAS: Sortat Crescător | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000126s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.042874s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000207s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001323s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003352s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003536s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.003751s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.034620s | Memorie:   606.20 KB
+    Radix Sort      | Timp:   0.002628s | Memorie:     8.06 KB
+
+  [CAS: Sortat Descrescător | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.117714s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.044444s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.070176s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002667s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003343s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.002958s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.002972s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.035378s | Memorie:   621.92 KB
+    Radix Sort      | Timp:   0.002623s | Memorie:     8.06 KB
+
+  [CAS: Constant (Plat) | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000121s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.043465s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000201s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001240s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003333s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.000166s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000511s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.000436s | Memorie:     7.83 KB
+    Radix Sort      | Timp:   0.001224s | Memorie:     8.06 KB
+
+  [CAS: Float Aleator | N: 1000 | TIP: float]
+    Bubble Sort     | Timp:   0.090181s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.041729s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.039672s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002871s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003703s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.002959s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.003311s | Memorie:     0.00 KB
+
+  [CAS: String Aleator | N: 1000 | TIP: string]
+    Bubble Sort     | Timp:   0.106092s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.054389s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.046720s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.003436s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.004284s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003567s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.003816s | Memorie:     0.00 KB
+
+>>> FIȘIER: dim_mica.txt <<<
+
+  [CAS: Aleator | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000531s | Memorie:     0.05 KB
+    Selection Sort  | Timp:   0.000256s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000569s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000112s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000333s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000195s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000197s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.003313s | Memorie:   155.78 KB
+    Radix Sort      | Timp:   0.000258s | Memorie:     1.03 KB
+
+  [CAS: Sortat Crescător | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000020s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000249s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000016s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000058s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000298s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000268s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000231s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.003187s | Memorie:   152.80 KB
+    Radix Sort      | Timp:   0.000232s | Memorie:     1.03 KB
+
+  [CAS: Sortat Descrescător | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000638s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000264s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000452s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000080s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000300s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000359s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000180s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.003313s | Memorie:   151.06 KB
+    Radix Sort      | Timp:   0.000277s | Memorie:     1.03 KB
+
+  [CAS: Constant (Plat) | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000012s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000229s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000026s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000051s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000314s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000040s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000103s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.000084s | Memorie:     0.80 KB
+    Radix Sort      | Timp:   0.000105s | Memorie:     1.03 KB
+
+  [CAS: Float Aleator | N: 100 | TIP: float]
+    Bubble Sort     | Timp:   0.000461s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000241s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000255s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000216s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000335s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000428s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000219s | Memorie:     0.00 KB
+
+  [CAS: String Aleator | N: 100 | TIP: string]
+    Bubble Sort     | Timp:   0.000654s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000376s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000287s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000118s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000326s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000211s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000251s | Memorie:     0.00 KB
+
+>>> FIȘIER: int_aleator.txt <<<
+
+  [CAS: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.199209s | Memorie:     0.09 KB
+    Selection Sort  | Timp:   0.042897s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.039943s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002963s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003713s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.008370s | Memorie:     3.62 KB
+    Heap Sort       | Timp:   0.003354s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.034360s | Memorie:   613.73 KB
+    Radix Sort      | Timp:   0.002611s | Memorie:     8.06 KB
+
+>>> FIȘIER: int_batch_mici.txt <<<
+
+  [CAS: Implicit | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.550814s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.673049s | Memorie:  1563.36 KB
+    Quick Sort      | Timp:   0.159114s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.661984s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.053845s | Memorie:   782.13 KB
+    Radix Sort      | Timp:   0.202606s | Memorie:   781.50 KB
+
+>>> FIȘIER: int_constant.txt <<<
+
+  [CAS: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000121s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.041039s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000201s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001237s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003288s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.000176s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000526s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.000531s | Memorie:     7.83 KB
+    Radix Sort      | Timp:   0.001247s | Memorie:     8.06 KB
+
+>>> FIȘIER: int_inversat.txt <<<
+
+  [CAS: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.251409s | Memorie:     0.09 KB
+    Selection Sort  | Timp:   0.056107s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.083196s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002262s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003517s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.007945s | Memorie:     2.74 KB
+    Heap Sort       | Timp:   0.002918s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.035850s | Memorie:   634.14 KB
+    Radix Sort      | Timp:   0.002757s | Memorie:     8.06 KB
+
+>>> FIȘIER: int_sortat.txt <<<
+
+  [CAS: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000265s | Memorie:     0.03 KB
+    Selection Sort  | Timp:   0.067067s | Memorie:     0.06 KB
+    Insertion Sort  | Timp:   0.000210s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001316s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003332s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.007904s | Memorie:     2.87 KB
+    Heap Sort       | Timp:   0.003529s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.034701s | Memorie:   622.86 KB
+    Radix Sort      | Timp:   0.002574s | Memorie:     8.06 KB
+
+=================================================================
+=== SESIUNE NOUA DE TESTARE ===
+Data si ora pornirii: 2026-04-22 21:31:39
+=================================================================
+
+>>> FISIER: dim_gigant.txt <<<
+
+  [CAZ: Aleator | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   3.517089s | Memorie:     0.14 KB
+    Merge Sort      | Timp:   1.662798s | Memorie:  1564.56 KB
+    Quick Sort      | Timp:   1.660749s | Memorie:     4.59 KB
+    Heap Sort       | Timp:   0.879830s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.482632s | Memorie:  1557.76 KB
+    Radix Sort      | Timp:   0.519973s | Memorie:   781.50 KB
+
+  [CAZ: Sortat Crescător | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.314921s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.628745s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   0.990925s | Memorie:     4.68 KB
+    Heap Sort       | Timp:   0.712156s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.349999s | Memorie:  1558.10 KB
+    Radix Sort      | Timp:   0.411598s | Memorie:   781.50 KB
+
+  [CAZ: Sortat Descrescător | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.478945s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.571212s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   1.163998s | Memorie:     4.46 KB
+    Heap Sort       | Timp:   0.683293s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.374647s | Memorie:  1558.13 KB
+    Radix Sort      | Timp:   0.387750s | Memorie:   781.50 KB
+
+  [CAZ: Constant (Plat) | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.272066s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.629592s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   0.019446s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.058267s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.046962s | Memorie:   781.27 KB
+    Radix Sort      | Timp:   0.131373s | Memorie:   781.50 KB
+
+  [CAZ: Float Aleator | N: 100000 | TIP: float]
+    Shell Sort      | Timp:   1.101815s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.683582s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   1.632293s | Memorie:     5.71 KB
+    Heap Sort       | Timp:   0.757246s | Memorie:     0.00 KB
+
+>>> FISIER: dim_mare.txt <<<
+
+  [CAZ: Aleator | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:  33.184124s | Memorie:     0.17 KB
+    Selection Sort  | Timp:   5.550347s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   4.705436s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.063561s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.086328s | Memorie:   156.41 KB
+    Quick Sort      | Timp:   0.127422s | Memorie:     4.34 KB
+    Heap Sort       | Timp:   0.055014s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.083883s | Memorie:   840.46 KB
+    Radix Sort      | Timp:   0.030578s | Memorie:    78.38 KB
+
+  [CAZ: Sortat Crescător | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:   0.001468s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.533679s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.002345s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.021644s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.048401s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.074547s | Memorie:     2.65 KB
+    Heap Sort       | Timp:   0.054593s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.071789s | Memorie:   837.31 KB
+    Radix Sort      | Timp:   0.031918s | Memorie:    78.38 KB
+
+  [CAZ: Sortat Descrescător | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:  16.927272s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   5.047159s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   9.452555s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.045141s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.049734s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.068341s | Memorie:     2.74 KB
+    Heap Sort       | Timp:   0.046370s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.078518s | Memorie:   841.05 KB
+    Radix Sort      | Timp:   0.028890s | Memorie:    78.38 KB
+
+  [CAZ: Constant (Plat) | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:   0.001379s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.639464s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.002271s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.021734s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.045208s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.002933s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.007441s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.005333s | Memorie:    78.14 KB
+    Radix Sort      | Timp:   0.016738s | Memorie:    78.38 KB
+
+  [CAZ: Float Aleator | N: 10000 | TIP: float]
+    Bubble Sort     | Timp:  12.263223s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.874943s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   4.778242s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.064645s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.057636s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.071408s | Memorie:     2.21 KB
+    Heap Sort       | Timp:   0.055772s | Memorie:     0.00 KB
+
+  [CAZ: String Aleator | N: 10000 | TIP: string]
+    Bubble Sort     | Timp:  13.684238s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   6.146346s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   5.395530s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.079364s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.061904s | Memorie:   156.34 KB
+    Quick Sort      | Timp:   0.113797s | Memorie:     3.59 KB
+    Heap Sort       | Timp:   0.073983s | Memorie:     0.00 KB
+
+>>> FISIER: dim_medie.txt <<<
+
+  [CAZ: Aleator | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.212577s | Memorie:     0.14 KB
+    Selection Sort  | Timp:   0.047010s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.044709s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.003427s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.004025s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.008066s | Memorie:     2.80 KB
+    Heap Sort       | Timp:   0.003456s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.036807s | Memorie:   624.49 KB
+    Radix Sort      | Timp:   0.002709s | Memorie:     8.06 KB
+
+  [CAZ: Sortat Crescător | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000127s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.046603s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000244s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001339s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003579s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003108s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.004153s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.040874s | Memorie:   606.20 KB
+    Radix Sort      | Timp:   0.002686s | Memorie:     8.06 KB
+
+  [CAZ: Sortat Descrescător | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.126138s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.051685s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.072303s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002222s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.004601s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003171s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.003158s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.035428s | Memorie:   621.92 KB
+    Radix Sort      | Timp:   0.002589s | Memorie:     8.06 KB
+
+  [CAZ: Constant (Plat) | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000120s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.044655s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000232s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001283s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003599s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.000245s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000550s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.000685s | Memorie:     7.83 KB
+    Radix Sort      | Timp:   0.001374s | Memorie:     8.06 KB
+
+  [CAZ: Float Aleator | N: 1000 | TIP: float]
+    Bubble Sort     | Timp:   0.097472s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.049977s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.037677s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.003019s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.004018s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003429s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.003370s | Memorie:     0.00 KB
+
+  [CAZ: String Aleator | N: 1000 | TIP: string]
+    Bubble Sort     | Timp:   0.110826s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.058631s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.049683s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.003521s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.004208s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003912s | Memorie:     0.27 KB
+    Heap Sort       | Timp:   0.004258s | Memorie:     0.00 KB
+
+>>> FISIER: dim_mica.txt <<<
+
+  [CAZ: Aleator | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000607s | Memorie:     0.05 KB
+    Selection Sort  | Timp:   0.000292s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000379s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000174s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000323s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000211s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000196s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.003395s | Memorie:   155.78 KB
+    Radix Sort      | Timp:   0.000321s | Memorie:     1.03 KB
+
+  [CAZ: Sortat Crescător | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000020s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000333s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000025s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000096s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000327s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000257s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000228s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.003383s | Memorie:   152.80 KB
+    Radix Sort      | Timp:   0.000245s | Memorie:     1.03 KB
+
+  [CAZ: Sortat Descrescător | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.001157s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000290s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000844s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000121s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000378s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000234s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000304s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.003503s | Memorie:   151.06 KB
+    Radix Sort      | Timp:   0.000358s | Memorie:     1.03 KB
+
+  [CAZ: Constant (Plat) | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000011s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000241s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000024s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000087s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000452s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000040s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000072s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.000078s | Memorie:     0.80 KB
+    Radix Sort      | Timp:   0.000176s | Memorie:     1.03 KB
+
+  [CAZ: Float Aleator | N: 100 | TIP: float]
+    Bubble Sort     | Timp:   0.000642s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000392s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000417s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000106s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000611s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000308s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000347s | Memorie:     0.00 KB
+
+  [CAZ: String Aleator | N: 100 | TIP: string]
+    Bubble Sort     | Timp:   0.000630s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000373s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000553s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000144s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000383s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000328s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000444s | Memorie:     0.00 KB
+
+>>> FISIER: int_aleator.txt <<<
+
+  [CAZ: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.206253s | Memorie:     0.09 KB
+    Selection Sort  | Timp:   0.043499s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.039937s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002971s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.004155s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.017605s | Memorie:     3.18 KB
+    Heap Sort       | Timp:   0.006343s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.040857s | Memorie:   613.77 KB
+    Radix Sort      | Timp:   0.004012s | Memorie:     8.06 KB
+
+>>> FISIER: int_batch_mici.txt <<<
+
+  [CAZ: Implicit | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.560109s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.719074s | Memorie:  1563.36 KB
+    Quick Sort      | Timp:   0.184391s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.658080s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.057064s | Memorie:   782.13 KB
+    Radix Sort      | Timp:   0.262210s | Memorie:   781.50 KB
+
+>>> FISIER: int_constant.txt <<<
+
+  [CAZ: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000200s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.040902s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000268s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001236s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003417s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.000241s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000989s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.000489s | Memorie:     7.83 KB
+    Radix Sort      | Timp:   0.001267s | Memorie:     8.06 KB
+
+>>> FISIER: int_inversat.txt <<<
+
+  [CAZ: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.265377s | Memorie:     0.09 KB
+    Selection Sort  | Timp:   0.046154s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.078307s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002383s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003423s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.009336s | Memorie:     3.68 KB
+    Heap Sort       | Timp:   0.003211s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.042031s | Memorie:   633.67 KB
+    Radix Sort      | Timp:   0.002724s | Memorie:     8.06 KB
+
+>>> FISIER: int_sortat.txt <<<
+
+  [CAZ: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000495s | Memorie:     0.03 KB
+    Selection Sort  | Timp:   0.072030s | Memorie:     0.06 KB
+    Insertion Sort  | Timp:   0.000228s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001387s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.004125s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.008474s | Memorie:     2.99 KB
+    Heap Sort       | Timp:   0.003982s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.035272s | Memorie:   622.73 KB
+    Radix Sort      | Timp:   0.004709s | Memorie:     8.06 KB
+
+=================================================================
+=== SESIUNE NOUA DE TESTARE ===
+Data si ora pornirii: 2026-05-08 21:28:38
+=================================================================
+
+>>> FISIER: dim_gigant.txt <<<
+
+  [CAZ: Aleator | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   3.122645s | Memorie:     0.14 KB
+    Merge Sort      | Timp:   1.389841s | Memorie:  1564.56 KB
+    Quick Sort      | Timp:   1.356530s | Memorie:     5.05 KB
+    Heap Sort       | Timp:   0.697460s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.362428s | Memorie:  1557.98 KB
+    Radix Sort      | Timp:   0.383058s | Memorie:   781.50 KB
+
+  [CAZ: Sortat Crescător | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.274348s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.556696s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   1.159823s | Memorie:     5.05 KB
+    Heap Sort       | Timp:   0.698641s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.346308s | Memorie:  1557.95 KB
+    Radix Sort      | Timp:   0.351401s | Memorie:   781.50 KB
+
+  [CAZ: Sortat Descrescător | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.455176s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.553880s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   1.125701s | Memorie:     4.93 KB
+    Heap Sort       | Timp:   0.628622s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.341715s | Memorie:  1557.91 KB
+    Radix Sort      | Timp:   0.384716s | Memorie:   781.50 KB
+
+  [CAZ: Aproape Sortat | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.775759s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.659015s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   1.088155s | Memorie:     4.80 KB
+    Heap Sort       | Timp:   0.714754s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.351866s | Memorie:  1558.07 KB
+    Radix Sort      | Timp:   0.364747s | Memorie:   781.50 KB
+
+  [CAZ: Constant (Plat) | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.266929s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.539626s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   0.016277s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.055358s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.046324s | Memorie:   781.27 KB
+    Radix Sort      | Timp:   0.131184s | Memorie:   781.50 KB
+
+  [CAZ: Float Aleator | N: 100000 | TIP: float]
+    Shell Sort      | Timp:   1.043960s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.649628s | Memorie:  1562.59 KB
+    Quick Sort      | Timp:   1.512604s | Memorie:     5.34 KB
+    Heap Sort       | Timp:   0.690723s | Memorie:     0.00 KB
+
+>>> FISIER: dim_mare.txt <<<
+
+  [CAZ: Aleator | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:  29.501304s | Memorie:     0.17 KB
+    Selection Sort  | Timp:   4.409846s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   4.364293s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.060793s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.083544s | Memorie:   156.41 KB
+    Quick Sort      | Timp:   0.136613s | Memorie:     4.87 KB
+    Heap Sort       | Timp:   0.050985s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.071234s | Memorie:   840.45 KB
+    Radix Sort      | Timp:   0.037000s | Memorie:    78.38 KB
+
+  [CAZ: Sortat Crescător | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:   0.001446s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.323678s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.002380s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.022359s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.044207s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.058897s | Memorie:     2.24 KB
+    Heap Sort       | Timp:   0.053877s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.071021s | Memorie:   840.60 KB
+    Radix Sort      | Timp:   0.028859s | Memorie:    78.38 KB
+
+  [CAZ: Sortat Descrescător | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:  15.656829s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.704832s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   8.500158s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.037877s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.044483s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.064298s | Memorie:     2.71 KB
+    Heap Sort       | Timp:   0.046447s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.070922s | Memorie:   840.09 KB
+    Radix Sort      | Timp:   0.039784s | Memorie:    78.38 KB
+
+  [CAZ: Aproape Sortat | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:   7.677174s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.487429s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.556663s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.046294s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.050065s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.062687s | Memorie:     1.99 KB
+    Heap Sort       | Timp:   0.057700s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.079863s | Memorie:   841.66 KB
+    Radix Sort      | Timp:   0.032440s | Memorie:    78.38 KB
+
+  [CAZ: Constant (Plat) | N: 10000 | TIP: int]
+    Bubble Sort     | Timp:   0.002129s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.384257s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.002250s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.021329s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.043763s | Memorie:   156.28 KB
+    Quick Sort      | Timp:   0.001694s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.005535s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.004679s | Memorie:    78.14 KB
+    Radix Sort      | Timp:   0.013247s | Memorie:    78.38 KB
+
+  [CAZ: Float Aleator | N: 10000 | TIP: float]
+    Bubble Sort     | Timp:  11.250829s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   4.297932s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   4.407155s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.059729s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.050190s | Memorie:   156.34 KB
+    Quick Sort      | Timp:   0.102864s | Memorie:     3.30 KB
+    Heap Sort       | Timp:   0.049901s | Memorie:     0.00 KB
+
+  [CAZ: String Aleator | N: 10000 | TIP: string]
+    Bubble Sort     | Timp:  12.838749s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   5.579174s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   4.972706s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.068166s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.055537s | Memorie:   156.34 KB
+    Quick Sort      | Timp:   0.083481s | Memorie:     3.40 KB
+    Heap Sort       | Timp:   0.058756s | Memorie:     0.00 KB
+
+>>> FISIER: dim_medie.txt <<<
+
+  [CAZ: Aleator | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.196586s | Memorie:     0.14 KB
+    Selection Sort  | Timp:   0.043049s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.039863s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.003202s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003948s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.009408s | Memorie:     3.24 KB
+    Heap Sort       | Timp:   0.003690s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.035854s | Memorie:   624.24 KB
+    Radix Sort      | Timp:   0.002719s | Memorie:     8.06 KB
+
+  [CAZ: Sortat Crescător | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000159s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.057697s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000212s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001367s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003430s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003180s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.003645s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.036905s | Memorie:   620.98 KB
+    Radix Sort      | Timp:   0.002719s | Memorie:     8.06 KB
+
+  [CAZ: Sortat Descrescător | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.118363s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.044331s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.068099s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002321s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003621s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003020s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.002920s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.034484s | Memorie:   623.47 KB
+    Radix Sort      | Timp:   0.002578s | Memorie:     8.06 KB
+
+  [CAZ: Aproape Sortat | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.057388s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.042363s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.005810s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002498s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003659s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003340s | Memorie:     0.30 KB
+    Heap Sort       | Timp:   0.003759s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.034587s | Memorie:   617.22 KB
+    Radix Sort      | Timp:   0.002773s | Memorie:     8.06 KB
+
+  [CAZ: Constant (Plat) | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000197s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.042435s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000204s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001291s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003407s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.000227s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000605s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.000442s | Memorie:     7.83 KB
+    Radix Sort      | Timp:   0.001224s | Memorie:     8.06 KB
+
+  [CAZ: Float Aleator | N: 1000 | TIP: float]
+    Bubble Sort     | Timp:   0.093399s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.058043s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.041081s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.003111s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003759s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003234s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.003520s | Memorie:     0.00 KB
+
+  [CAZ: String Aleator | N: 1000 | TIP: string]
+    Bubble Sort     | Timp:   0.111272s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.054379s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.048332s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.003504s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.004136s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.003834s | Memorie:     0.46 KB
+    Heap Sort       | Timp:   0.004162s | Memorie:     0.00 KB
+
+>>> FISIER: dim_mica.txt <<<
+
+  [CAZ: Aleator | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000533s | Memorie:     0.05 KB
+    Selection Sort  | Timp:   0.000314s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000253s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000193s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000323s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000299s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000217s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.003491s | Memorie:   153.52 KB
+    Radix Sort      | Timp:   0.000276s | Memorie:     1.03 KB
+
+  [CAZ: Sortat Crescător | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000017s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000246s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000024s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000063s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000311s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000317s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000219s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.003242s | Memorie:   154.60 KB
+    Radix Sort      | Timp:   0.000263s | Memorie:     1.03 KB
+
+  [CAZ: Sortat Descrescător | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000660s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000261s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000460s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000147s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000415s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000229s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000196s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.003247s | Memorie:   151.09 KB
+    Radix Sort      | Timp:   0.000363s | Memorie:     1.03 KB
+
+  [CAZ: Aproape Sortat | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000213s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000271s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000052s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000117s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000318s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000195s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000269s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.003797s | Memorie:   156.93 KB
+    Radix Sort      | Timp:   0.000360s | Memorie:     1.03 KB
+
+  [CAZ: Constant (Plat) | N: 100 | TIP: int]
+    Bubble Sort     | Timp:   0.000017s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000246s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000025s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000090s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000300s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000027s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000097s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.000083s | Memorie:     0.80 KB
+    Radix Sort      | Timp:   0.000172s | Memorie:     1.03 KB
+
+  [CAZ: Float Aleator | N: 100 | TIP: float]
+    Bubble Sort     | Timp:   0.000560s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000292s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000214s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000100s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000321s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000213s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000211s | Memorie:     0.00 KB
+
+  [CAZ: String Aleator | N: 100 | TIP: string]
+    Bubble Sort     | Timp:   0.000656s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.000359s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000514s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.000253s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.000370s | Memorie:     1.57 KB
+    Quick Sort      | Timp:   0.000216s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000216s | Memorie:     0.00 KB
+
+>>> FISIER: int_aleator.txt <<<
+
+  [CAZ: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.197108s | Memorie:     0.09 KB
+    Selection Sort  | Timp:   0.042783s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.039109s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002907s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003880s | Memorie:    15.68 KB
+    Quick Sort      | Timp:   0.008723s | Memorie:     3.12 KB
+    Heap Sort       | Timp:   0.003413s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.038809s | Memorie:   613.83 KB
+    Radix Sort      | Timp:   0.002909s | Memorie:     8.06 KB
+
+>>> FISIER: int_batch_mici.txt <<<
+
+  [CAZ: Implicit | N: 100000 | TIP: int]
+    Shell Sort      | Timp:   0.546878s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.675906s | Memorie:  1563.36 KB
+    Quick Sort      | Timp:   0.192872s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.645229s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.051750s | Memorie:   782.13 KB
+    Radix Sort      | Timp:   0.196299s | Memorie:   781.50 KB
+
+>>> FISIER: int_constant.txt <<<
+
+  [CAZ: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000122s | Memorie:     0.00 KB
+    Selection Sort  | Timp:   0.041183s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.000261s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001300s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003356s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.000223s | Memorie:     0.24 KB
+    Heap Sort       | Timp:   0.000517s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.000466s | Memorie:     7.83 KB
+    Radix Sort      | Timp:   0.001278s | Memorie:     8.06 KB
+
+>>> FISIER: int_inversat.txt <<<
+
+  [CAZ: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.245285s | Memorie:     0.09 KB
+    Selection Sort  | Timp:   0.043829s | Memorie:     0.00 KB
+    Insertion Sort  | Timp:   0.068906s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.002250s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003416s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.007482s | Memorie:     2.80 KB
+    Heap Sort       | Timp:   0.002985s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.035347s | Memorie:   634.08 KB
+    Radix Sort      | Timp:   0.002633s | Memorie:     8.06 KB
+
+>>> FISIER: int_sortat.txt <<<
+
+  [CAZ: Implicit | N: 1000 | TIP: int]
+    Bubble Sort     | Timp:   0.000530s | Memorie:     0.03 KB
+    Selection Sort  | Timp:   0.068294s | Memorie:     0.06 KB
+    Insertion Sort  | Timp:   0.000272s | Memorie:     0.00 KB
+    Shell Sort      | Timp:   0.001329s | Memorie:     0.00 KB
+    Merge Sort      | Timp:   0.003419s | Memorie:    15.62 KB
+    Quick Sort      | Timp:   0.007998s | Memorie:     2.99 KB
+    Heap Sort       | Timp:   0.003656s | Memorie:     0.00 KB
+    Counting Sort   | Timp:   0.033581s | Memorie:   622.73 KB
+    Radix Sort      | Timp:   0.002557s | Memorie:     8.06 KB
